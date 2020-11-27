@@ -1,0 +1,20 @@
+server:
+  port: 8888
+    #profiles:
+    #  active: native
+    #spring:
+    # cloud:
+    #  config:
+    #   server:
+    # native:
+  #  search-locations: file:///D:/spring-git-repo
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: D://spring-git-repo
+
+  profiles:
+    active: dev
+
